@@ -1,0 +1,184 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.MainContainer{
+    background-color: aliceblue;
+    width: 100%;
+    position: relative;
+    padding: 10px;
+}
+.subContainer{
+    position: relative;
+    border: 1px solid black;
+}
+.Container {
+    width: 70px;
+    height: 6vh;
+    background-color: rgb(253, 64, 253);
+    position: absolute;
+    right: 0;
+}
+.triangle {
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    border-left: 30px solid aliceblue;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.Header{
+    max-width: 900px;
+    min-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2rem;
+}
+.Header h3{
+    margin-top: 10px;
+    background-color: rgb(253, 64, 253);
+    width: fit-content;
+    padding: 5px 20px;
+    margin-left: auto;
+    margin-right: auto;
+    color: whitesmoke;
+    border-radius: 5px;
+}
+.Header p{
+    padding: 15px;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 24px;
+    letter-spacing: 1px;
+    border-bottom: 2px dotted purple;
+}
+.Team{
+    background-color: azure;
+    width: 100%;
+
+}
+.Team h2{
+    text-align: center;
+}
+.Heading{
+    margin-top: 10px;
+    background-color: rgb(253, 64, 253);
+    width: fit-content;
+    padding: 5px 20px;
+    margin-left: auto;
+    margin-right: auto;
+    color: whitesmoke;
+    border-radius: 5px;
+}
+.AllCards{
+    width: 100%;
+}
+.card1, 
+.card2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+    margin-top: 15px;
+}
+.InlineCard{
+    text-align: center;
+    margin-top: 15px;
+    width: 200px;
+}
+.Name{
+    margin-top: 10px;
+}
+.InlineCard p{
+    margin-top: 10px;
+    font-style: italic;
+    color: violet;
+}
+.Profile{
+    width: 100px;
+    border-radius: 50%;
+    height: 100px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: all 0.3s ease-in-out;
+}
+.Profile:hover{
+    transform: scale(1.1);
+    box-shadow: 5px 5px 5px violet;}
+.Team2{
+    position: relative;
+    margin-top: 20px;
+}
+.Container1 {
+    width: 70px;
+    height: 6vh;
+    background-color: rgb(253, 64, 253);
+    position: absolute;
+}
+.triangle1 {
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    border-right: 30px solid aliceblue;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.DevelopmentHeading,
+.SaleHeading{
+    margin-top: 20px;
+    background-color: rgb(253, 64, 253);
+    width: fit-content;
+    padding: 5px 20px;
+    margin-left: auto;
+    margin-right: auto;
+    color: whitesmoke;
+    border-radius: 5px;
+}
+.Container2 {
+    width: 70px;
+    height: 6vh;
+    background-color: rgb(253, 64, 253);
+    position: relative;
+}
+.triangle2 {
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    border-right: 30px solid aliceblue;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+@media  screen and (max-width:425px) {
+    .Header p{
+        font-size: 14px;
+    }
+}
+@media screen and (max-width:375px){
+    .Header p{
+        font-size: 12px;
+    }
+}
+@media screen and (max-width:322px){
+    .Heading{
+        font-size: 18px;
+    }
+}
+@media screen and (max-width:396px) {
+    .team3Container{
+        position: relative;
+        margin-left: auto;
+    }
+    .Team2Container{
+        position: relative;
+    }
+}
